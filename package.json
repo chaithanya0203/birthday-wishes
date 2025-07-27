@@ -4,7 +4,7 @@
 "homepage": "https://chaithanya0203.github.io/birthday-wishes",
 "scripts": {
   "dev": "vite",
-  "build": "vite build",
+  "build": "npx vite build",
   "deploy": "gh-pages -d dist"
 },
 
