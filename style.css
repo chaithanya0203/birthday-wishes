@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+canvas#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(255,255,255,0.3);
+}
+
+.photos img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.photos img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.5);
+  animation: float 3s ease-in-out infinite;
+}

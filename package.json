@@ -1,0 +1,19 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "three": "^0.178.0"
+  },
+  "scripts": {
+  "dev": "vite"
+}
+}
